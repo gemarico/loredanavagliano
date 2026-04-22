@@ -1,0 +1,173 @@
+<html>
+<head>
+<title>Loredana Avagliano</title>
+
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+<script id="pixel-chaty" async src="https://cdn.chaty.app/pixel.js?id=YjQzJds8"></script>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&display=swap');
+
+body {
+  margin: 0;
+    font-family: 'Cactus Classical Serif', serif;
+
+}
+
+/* Overlay */
+#cookie-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  z-index: 9998;
+   pointer-events: none; /* 👈 clave */
+}
+
+/* Banner responsive */
+#cookie-banner {
+  position: fixed;
+  left: 50%;
+  bottom: 40%;
+  transform: translateX(-50%);
+  background: #f1e3c8;
+  border-radius: 16px;
+  
+  padding: clamp(20px, 3vw, 36px);
+  max-width: 600px;
+  width: calc(100% - 32px);
+
+  z-index: 9999;
+  font-family: 'Cactus Classical Serif', serif;
+  color: #393D32;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.15);
+}
+
+/* Título */
+#cookie-banner h2 {
+  margin: 0 0 16px;
+  font-size: clamp(16px, 2vw, 20px);
+  font-weight: normal;
+}
+
+/* Texto */
+#cookie-banner p {
+  margin: 0 0 20px;
+  font-size: clamp(14px, 1.6vw, 16px);
+  line-height: 1.6;
+     font-family: 'Cactus Classical Serif', serif;
+}
+
+/* Enlace */
+#cookie-banner a {
+  color: #393D32;
+  font-size: 16px;
+  text-decoration: underline;
+  display: block;
+  margin-bottom: 24px;
+  transition: opacity 0.2s ease;
+     font-family: 'Cactus Classical Serif', serif;
+}
+
+#cookie-banner a:hover {
+  opacity: 0.6;
+}
+
+/* Botones */
+.cookie-buttons {
+  display: flex;
+     font-family: 'Cactus Classical Serif', serif;
+  justify-content: flex-end;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.cookie-btn {
+  padding: 10px 24px;
+  border-radius: 10px;
+  font-size: clamp(14px, 1.5vw, 16px);
+  cursor: pointer;
+  transition: all 0.2s ease;
+     font-family: 'Cactus Classical Serif', serif;
+}
+
+/* Decline */
+.decline {
+  background: transparent;
+  color: #393D32;
+  border: 1.5px solid #393D32;
+}
+
+.decline:hover {
+  background: #393D32;
+  color: #f1e3c8;
+}
+
+/* Accept */
+.accept {
+  background: #393D32;
+  color: #f1e3c8;
+  border: none;
+}
+
+.accept:hover {
+  opacity: 0.8;
+}
+
+/* Botón cerrar */
+.close-btn {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #393D32;
+}
+
+/* Móvil */
+@media (max-width: 600px) {
+
+  #cookie-banner {
+    left: 0;
+    bottom: 0;
+    transform: none;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 16px 16px 0 0;
+  }
+
+  .cookie-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .cookie-btn {
+    width: 100%;
+  }
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- Iframe Wix -->
+<iframe src="https://gemarico.wixstudio.com/loredanavagliano"
+style="position:fixed; top:-50px; left:0; width:100%; height:108%; border:none; z-index:9;" allow="fullscreen"></iframe>
+
+
+
+<script>
+// Redirección móvil
+if (screen.width <= 900) {
+  document.location = "/mobile.html";
+}
+
+
+</script>
+
+</body>
+</html>
